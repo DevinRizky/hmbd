@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" fill="none" aria-hidden="true">
+  <rect width="640" height="480" fill="#0d0d0d"/>
+  <rect x="0" y="472" width="640" height="4" fill="url(#md)"/>
+  <circle cx="320" cy="200" r="56" stroke="#3c3c3c" stroke-width="1" fill="#1a1a1a"/>
+  <text x="320" y="310" fill="#bbbbbb" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="300" letter-spacing="2" text-anchor="middle">FOTO DOSEN</text>
+  <defs>
+    <linearGradient id="md" x1="0" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066b1"/>
+      <stop offset="0.5" stop-color="#1c69d4"/>
+      <stop offset="1" stop-color="#e22718"/>
+    </linearGradient>
+  </defs>
+</svg>

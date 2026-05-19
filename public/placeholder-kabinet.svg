@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none" aria-hidden="true">
+  <rect width="88" height="88" fill="#1a1a1a" stroke="#262626" stroke-width="1"/>
+  <polygon points="44,14 74,74 14,74" fill="none" stroke="#7e7e7e" stroke-width="1.5"/>
+  <circle cx="44" cy="40" r="6" stroke="#e22718" stroke-width="2" fill="none"/>
+  <rect x="12" y="78" width="64" height="3" fill="url(#ma)"/>
+  <text x="44" y="60" fill="#ffffff" font-family="system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" text-anchor="middle">ARA</text>
+  <defs>
+    <linearGradient id="ma" x1="12" y1="0" x2="76" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066b1"/>
+      <stop offset="0.5" stop-color="#1c69d4"/>
+      <stop offset="1" stop-color="#e22718"/>
+    </linearGradient>
+  </defs>
+</svg>

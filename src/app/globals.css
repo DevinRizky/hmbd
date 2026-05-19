@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+/* Light mode (default) — putih bersih, teks gelap */
+:root {
+  --hmbd-canvas: #ffffff;
+  --hmbd-surface-soft: #f4f4f4;
+  --hmbd-surface-card: #ebebeb;
+  --hmbd-surface-elevated: #e0e0e0;
+  --hmbd-carbon-gray: #d6d6d6;
+  --hmbd-hairline: #d1d1d1;
+  --hmbd-hairline-strong: #bdbdbd;
+  --hmbd-on-dark: #0a0a0a;
+  --hmbd-body: #4a4a4a;
+  --hmbd-body-strong: #1a1a1a;
+  --hmbd-muted: #737373;
+  --hmbd-nav-glow: 0 -4px 32px rgba(28, 105, 212, 0.08);
+}
+
+/* Dark mode — BMW M canvas hitam */
+.dark {
+  --hmbd-canvas: #000000;
+  --hmbd-surface-soft: #0d0d0d;
+  --hmbd-surface-card: #1a1a1a;
+  --hmbd-surface-elevated: #262626;
+  --hmbd-carbon-gray: #2b2b2b;
+  --hmbd-hairline: #3c3c3c;
+  --hmbd-hairline-strong: #262626;
+  --hmbd-on-dark: #ffffff;
+  --hmbd-body: #bbbbbb;
+  --hmbd-body-strong: #e6e6e6;
+  --hmbd-muted: #7e7e7e;
+  --hmbd-nav-glow: 0 -4px 32px rgba(28, 105, 212, 0.12);
+}
+
+@theme inline {
+  --color-canvas: var(--hmbd-canvas);
+  --color-surface-soft: var(--hmbd-surface-soft);
+  --color-surface-card: var(--hmbd-surface-card);
+  --color-surface-elevated: var(--hmbd-surface-elevated);
+  --color-carbon-gray: var(--hmbd-carbon-gray);
+  --color-hairline: var(--hmbd-hairline);
+  --color-hairline-strong: var(--hmbd-hairline-strong);
+  --color-on-dark: var(--hmbd-on-dark);
+  --color-body: var(--hmbd-body);
+  --color-body-strong: var(--hmbd-body-strong);
+  --color-muted: var(--hmbd-muted);
+  /* M tricolor — identitas di kedua mode */
+  --color-m-blue-light: #0066b1;
+  --color-m-blue-dark: #1c69d4;
+  --color-m-red: #e22718;
+  --color-bmw-blue: #1c69d4;
+
+  /* ================= TAMBAHKAN DUA BARIS INI ================= */
+  --z-999: 999;
+  --z-9999: 9999;
+  /* ============================================================ */
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --spacing-section: 96px;
+
+  --shadow-glow-blue: 0 0 24px rgba(28, 105, 212, 0.35);
+  --shadow-glow-red: 0 0 20px rgba(226, 39, 24, 0.28);
+  --shadow-nav-glow: var(--hmbd-nav-glow);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--hmbd-canvas);
+  color: var(--hmbd-body);
+  font-feature-settings:
+    "liga" 1,
+    "kern" 1;
+}
+
+/* Teks penjelasan / deskripsi panjang — rata kanan-kiri */
+main p,
+main li,
+footer p,
+footer address,
+.text-justify,
+.text-justify-body {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Horizontal rails */
+.hmbd-scroll-x {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hmbd-hairline) var(--hmbd-surface-soft);
+}
+
+.hmbd-scroll-x::-webkit-scrollbar {
+  height: 8px;
+}
+
+.hmbd-scroll-x::-webkit-scrollbar-track {
+  background-color: var(--hmbd-surface-soft);
+  border-radius: 0;
+}
+
+.hmbd-scroll-x::-webkit-scrollbar-thumb {
+  background-color: var(--hmbd-hairline);
+  border-radius: 0;
+}
+
+.hmbd-scroll-x::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-m-blue-dark);
+  opacity: 0.85;
+}

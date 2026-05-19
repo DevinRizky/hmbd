@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" fill="none">
+  <rect width="800" height="800" fill="#050505"/>
+  <rect x="0" y="792" width="800" height="6" fill="url(#gk)"/>
+  <rect opacity="0.35" x="96" y="560" width="608" height="2" fill="#3c3c3c"/>
+  <circle cx="196" cy="240" r="96" opacity="0.15" stroke="#1c69d4" stroke-width="1"/>
+  <circle cx="620" cy="320" r="140" opacity="0.12" stroke="#e22718" stroke-width="1"/>
+  <text x="400" y="392" fill="#7e7e7e" font-family="ui-sans-serif,system-ui,sans-serif" font-size="20" font-weight="300" letter-spacing="8" text-anchor="middle">
+    DOKUMENTASI
+  </text>
+  <defs>
+    <linearGradient id="gk" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066b1"/>
+      <stop offset="0.5" stop-color="#1c69d4"/>
+      <stop offset="1" stop-color="#e22718"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88" fill="none" aria-hidden="true">
+  <rect width="88" height="88" fill="#0d0d0d" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="12" y="68" width="64" height="4" fill="url(#m)"/>
+  <text x="44" y="46" fill="#bbbbbb" font-family="system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8" text-anchor="middle">HMBD</text>
+  <defs>
+    <linearGradient id="m" x1="12" y1="0" x2="76" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066b1"/>
+      <stop offset="0.52" stop-color="#1c69d4"/>
+      <stop offset="1" stop-color="#e22718"/>
+    </linearGradient>
+  </defs>
+</svg>

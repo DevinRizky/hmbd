@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none" aria-hidden="true">
+  <rect width="720" height="720" fill="#000000"/>
+  <rect x="48" y="640" width="624" height="6" fill="url(#m)"/>
+  <rect x="72" y="96" width="576" height="2" fill="#3c3c3c"/>
+  <text x="360" y="360" fill="#7e7e7e" font-family="ui-sans-serif,system-ui,sans-serif" font-size="18" font-weight="300" letter-spacing="3" text-anchor="middle">HMBD � PLACEHOLDER</text>
+  <defs>
+    <linearGradient id="m" x1="48" y1="0" x2="672" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0066b1"/>
+      <stop offset="0.5" stop-color="#1c69d4"/>
+      <stop offset="1" stop-color="#e22718"/>
+    </linearGradient>
+  </defs>
+</svg>
