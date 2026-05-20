@@ -10,7 +10,7 @@ export default function BeritaPage() {
     <>
       <PageShell eyebrow="Informasi terkini" title="Berita">
         <p>
-          Arsip komunikasi kabinet serta informasi bagi seluruh warga Bisnis
+          testttttt doangggg komunikasi kabinet serta informasi bagi seluruh warga Bisnis
           Digital — konten dapat diarahkan halaman detail berita ketika struktur CMS siap digunakan.
         </p>
       </PageShell>
