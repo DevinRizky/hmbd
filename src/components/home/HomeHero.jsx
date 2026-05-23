@@ -26,7 +26,7 @@ export default function HomeHero() {
         <div className="lg:col-span-7 flex flex-col justify-center">
           <span className="text-[11px] font-bold uppercase tracking-[2px] text-m-blue-dark dark:text-m-blue-light">Selamat Datang di Website Resmi</span>
           <h1 className="mt-3 text-3xl font-extrabold uppercase tracking-tight text-on-dark sm:text-4xl lg:text-5xl lg:leading-[1.1]">
-            Himpunan Mahasiswa Bisnis Digital <br />
+            Himpunan Mahasiswa <br />
             <span className="bg-linear-to-r from-m-blue-dark via-m-blue-light to-m-red bg-clip-text text-transparent">Bisnis Digital</span>
           </h1>
           <p className="mt-6 text-base font-light text-body max-w-xl text-justify">
